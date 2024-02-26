@@ -17,9 +17,10 @@ spec:
       containers:
         - name: vprodb
           image: vprofile/vprofiledb:V1
+
           volumeMounts:
             - mountPath: /var/lib/mysql
-              name: vprodb-data
+              name: vprodb-db-data
           ports: 
             - name: vprodb-port
               containerPort: 3306
