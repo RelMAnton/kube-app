@@ -7,7 +7,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: vpromc
+      app: myapp    # Change this to "app: myapp"
   replicas: 1
   template:
     metadata:
